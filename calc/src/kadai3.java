@@ -15,7 +15,7 @@ public class kadai3 {
 		System.out.println(intNum3);
 
 		//変数の初期化(合計値)
-		int intNum4 = intNum1+intNum2+intNum3;
+		int intNum4 = intNum1 + intNum2 + intNum3;
 		//合計値を出力
 		System.out.println("合計:\b"+intNum4);
 
