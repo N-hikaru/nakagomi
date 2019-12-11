@@ -6,19 +6,18 @@ public class kadai3 {
 		//数字の入力を待つ
 		Scanner scan = new Scanner(System.in);
 		int intNum = scan.nextInt();
+		scan.close();
 
 		//0の場合
-		if(0 == intNum)
+		if(0 == intNum) {
 			System.out.println("入力された数字は0です。");
-
 		//正の整数の場合
-		else if(intNum > 0)
+		}else if(0 < intNum) {
 			System.out.println("入力された数字は正の整数です。");
-
 		//負の整数の場合
-		else
+		}else {
 			System.out.println("入力された数字は負の整数です。");
-
+		}
 	}
 
 }

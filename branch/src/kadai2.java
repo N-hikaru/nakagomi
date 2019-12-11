@@ -14,8 +14,9 @@ public class kadai2 {
 			System.out.println("値:0"+intNum1);
 
 		//受け取った数字が１桁でない場合の処理
-		else
-		System.out.println("値:"+intNum1);
-	}
+		else {
+			System.out.println("値:"+intNum1);
+		}
 
+	}
 }

@@ -9,11 +9,12 @@ public class kadai1 {
 		int intNum1 = scan.nextInt();
 
 		//入力数字が10未満の場合の処理
-		if(intNum1 < 10)
-			intNum1 = intNum1*10;    //入力数字が10未満で10倍する
-
+		if(intNum1 < 10) {
+			intNum1 = intNum1 * 10;    //入力数字が10未満で10倍する
+		}
 		//出力
 		System.out.println("値:"+intNum1);
+
 
 	}
 
