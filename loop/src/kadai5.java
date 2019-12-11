@@ -13,12 +13,12 @@ public class kadai5 {
 
 				//1桁の時は数字の前後に半角スペースを付けて出力
 				if(kake < 10) {
-				System.out.print(" "+kake+" ");}
+					System.out.print(" "+kake+" ");
 				//2桁の時は数字の後に半角スペースを付けて出力
-				else {
-				System.out.print(kake+" ");}
-
-		}
+				}else {
+					System.out.print(kake+" ");
+				}
+			}
 			System.out.println();
 		}
 	}

@@ -8,12 +8,13 @@ public class kadai1 {
 		//数字の入力を待つ
 		Scanner scan = new Scanner(System.in);
 		int intNum1 = scan.nextInt();
+		scan.close();
 
 		int intNum2 = 0;
-		for(int i = 1;i <= intNum1;i++)
+		for(int i = 1 ; i <= intNum1 ; i++)
 			intNum2 += i;
 		//合計値を出力
-		System.out.println("1～"+intNum1+"までの合計:"+intNum2);
+		System.out.println("1～" + intNum1+"までの合計:" + intNum2);
 	}
 
 }

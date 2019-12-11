@@ -8,7 +8,8 @@ public class kadai3 {
 		//入力を待つ
 		Scanner scan = new Scanner(System.in);
 		String str = scan.next();
-		System.out.println("桁数:"+str.length());
+		scan.close();
+			System.out.println("桁数:"+str.length());
 
 	}
 
