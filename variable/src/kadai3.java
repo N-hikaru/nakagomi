@@ -10,10 +10,10 @@ public class kadai3 {
 		double doubleNum = 364.2;
 		long longNum = 123456L;
 		//出力
-		System.out.println(str);
-		System.out.println(intNum);
-		System.out.println(doubleNum);
-		System.out.println(longNum);
+			System.out.println(str);
+			System.out.println(intNum);
+			System.out.println(doubleNum);
+			System.out.println(longNum);
 
 		//変換後
 		//変数の初期化
@@ -22,10 +22,10 @@ public class kadai3 {
 		float floatNum2 = (float)doubleNum;
 		double doubleNum2 = longNum;
 		//出力
-		System.out.println(str2);
-		System.out.println(longNum2);
-		System.out.println(floatNum2);
-		System.out.println(doubleNum2);
+			System.out.println(str2);
+			System.out.println(longNum2);
+			System.out.println(floatNum2);
+			System.out.println(doubleNum2);
 
 	}
 
