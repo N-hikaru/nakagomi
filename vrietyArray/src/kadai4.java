@@ -21,18 +21,20 @@ public class kadai4 {
 		//配列に格納されている数値を偶数、奇数に分ける
 		int i;
 		for(i = 0 ; i < intNums.length ; i++) {
-			//偶数の場合、alistに格納してamapにラベル付け
+			//偶数の場合、ArrayList(alist)に格納
 			if(0 == intNums[i] % 2) {
 				alist.add(intNums[i]);
 				amap.put("偶数", intNums[i]);
-			//奇数の場合、blistに格納してbmapにラベル付け
+			//奇数の場合、ArrayList(blist)に格納
 			}else{
 				blist.add(intNums[i]);
 				bmap.put("奇数", intNums[i]);
-			};
+			}
 		}
-		System.out.print("{");
-		System.out.println("偶数: =" + alist + ",");
-		System.out.println("  奇数: =" + blist + "}");
+
+		HashMap<String,ArrayList<Integer>> cmap = new HashMap<>();
+		cmap.put("偶数",alist);
+		cmap.put("奇数",blist);
+		System.out.println(cmap);
 	}
 }

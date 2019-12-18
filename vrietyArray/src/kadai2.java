@@ -29,7 +29,7 @@ public class kadai2 {
 			a++;
 			//alist.size() → Alistの要素数を調べる
 			if(a < alist.size()) {
-				System.out.print(",");
+				System.out.print(", ");
 			}
 		}
 		System.out.println("]");
@@ -41,7 +41,7 @@ public class kadai2 {
 			b++;
 			//blist.size() → Alistの要素数を調べる
 			if(b < blist.size()) {
-				System.out.print(",");
+				System.out.print(", ");
 			}
 		}
 		System.out.print("]");
