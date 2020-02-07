@@ -11,14 +11,14 @@ public class kadai3 {
 
 		//ランダムに0～9の数字を6回出力させる
 		Random random = new Random();
-		int k = 1;
-		for(int i = 0; i < 6 ; i++) {
+		int Comma = 1;
+		for(int elements = 0; elements < 6 ; elements++) {
 			//int Ran = random.nextInt(9);
-			nums[i]= random.nextInt(9);
-				System.out.print(nums[i]);
+			nums[elements]= random.nextInt(9);
+				System.out.print(nums[elements]);
 			//「,」を5回出力させる
-			if(k < (nums.length)) {
-				k++;
+			if(Comma < (nums.length)) {
+				Comma++;
 				System.out.print(",");
 			}
 		}
